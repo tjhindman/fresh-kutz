@@ -1,0 +1,14 @@
+.apptWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.mapWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 450px;
+}
