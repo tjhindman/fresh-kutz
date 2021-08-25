@@ -8,16 +8,19 @@ export const ServicesHours = () => {
       <div className="servicesWrap">
         <h2>Services</h2>
         <ul style={{ width: "100%" }}>
-          <li>Afro</li>
           <li>Eyebrows</li>
-          <li>Haircut</li>
-          <li>Haircut and Beard</li>
-          <li>Kid Haircut (1 - 12)</li>
+          <li>Mustache Line</li>
+          <li>Beard Shave</li>
+          <li>Afro</li>
           <li>Line and Taper</li>
           <li>Line Up (Razor)</li>
           <li>Line Up (Clipper)</li>
-          <li>Specialty Cut</li>
+          <li>Haircut</li>
+          <li>Haircut and Beard</li>
+          <li>Kids Haircut</li>
+          <li>Senior Citizen Haircut (60+)</li>
           <li>Haircut/Curl Sponge Cut</li>
+          <li>Specialty Cut</li>
         </ul>
       </div>
       <div className="hoursWrap">
