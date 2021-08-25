@@ -1,3 +1,9 @@
+.servicesHoursWrap {
+  display: flex;
+  background-color: lightgray;
+  padding: 0 18% 1% 18%;
+}
+
 .servicesWrap {
   display: flex;
   flex-direction: column;
@@ -5,11 +11,22 @@
   width: 50%;
 }
 
+.servicesWrap li {
+  font-size: 1.2em;
+}
+
 .hoursWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 50%;
-  height: 450px;
-  background-color: lightblue;
+}
+
+.hoursWrap h3 {
+  margin-bottom: 0;
+}
+
+.hoursWrap p {
+  margin-top: 0;
 }

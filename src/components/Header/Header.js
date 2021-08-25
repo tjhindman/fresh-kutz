@@ -7,9 +7,10 @@ export const Header = () => {
     <div className="headerWrap">
       <h1>Fresh Kutz</h1>
       <p>"Indy's #1 Barbershop!"</p>
-      <h3>(317) 317-3173</h3>
-      <h3 style={{ textAlign: "center" }}>
-        1234 Something Rd.
+      <hr className="lineBreak" />
+      <h3>(317) 259-4390</h3>
+      <h3 style={{ marginTop: "0", textAlign: "center" }}>
+        5957 N Michigan Rd.
         <br />
         Indianapolis, IN 46228
       </h3>

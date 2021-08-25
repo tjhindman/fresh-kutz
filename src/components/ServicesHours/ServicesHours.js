@@ -4,7 +4,7 @@ import "./ServicesHours.css";
 
 export const ServicesHours = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="servicesHoursWrap">
       <div className="servicesWrap">
         <h2>Services</h2>
         <ul style={{ width: "100%" }}>
@@ -24,9 +24,11 @@ export const ServicesHours = () => {
         <h2>Hours</h2>
         <p>Open 7 days a week!</p>
         <h3>Mon - Fri</h3>
-        <p>8am - 6pm</p>
-        <h3>Sat - Sun</h3>
-        <p>8am - 6pm</p>
+        <p>9am - 6pm</p>
+        <h3>Sat</h3>
+        <p>8am - 4pm</p>
+        <h3>Sun</h3>
+        <p>9am - 2pm</p>
       </div>
     </div>
   );

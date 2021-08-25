@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./Footer.css";
+
 export const Footer = () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h3>1234 Something Rd. | Indianapolis, IN 46228</h3>
+    <div className="footerWrap">
+      <h3>5957 N Michigan Rd. | Indianapolis, IN 46228 | (317) 259-4390</h3>
       <p>Powered by HTech</p>
     </div>
   );

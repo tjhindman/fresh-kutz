@@ -1,12 +1,24 @@
+.apptMapWrap {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(73, 73, 73);
+  padding: 0 18% 0 18%;
+}
+
 .apptWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 50%;
 }
 
+.apptWrap h2 {
+  color: white;
+}
+
 .mapWrap {
-  width: 50%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  width: 40%;
+  height: 22em;
+  padding: 3em;
 }
