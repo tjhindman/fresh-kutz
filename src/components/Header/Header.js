@@ -4,7 +4,7 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <div className="headerWrap">
+    <main className="headerWrap">
       <h1>Fresh Kutz</h1>
       <p>"Good business. Good people. Good kutz."</p>
       <hr className="lineBreak" />
@@ -14,6 +14,6 @@ export const Header = () => {
         <br />
         Indianapolis, IN 46228
       </h3>
-    </div>
+    </main>
   );
 };
