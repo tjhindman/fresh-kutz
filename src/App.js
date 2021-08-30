@@ -19,6 +19,10 @@ function App() {
           Get an appointment scheduled and come get fresh!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="google-site-verification"
+          content="tQLf2DLkDPFHMVZ-tOw6SI6vRMcZod_QUBL9_WpzzvY"
+        />
       </Helmet>
       <Ad />
       <Header />
