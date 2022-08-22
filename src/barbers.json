@@ -1,5 +1,10 @@
 [
   {
+    "new": true,
+    "name": "Dre",
+    "link": "https://app.thecut.co/barbers/andreliggons"
+  },
+  {
     "new": false,
     "name": "Donald",
     "link": "https://booking.setmore.com/scheduleappointment/75cacf12930e54d58a5df253319fb343321acfeb"
@@ -8,10 +13,5 @@
     "new": false,
     "name": "Lamont",
     "link": "https://square.site/book/EQBD16T345GJ8/master-barber-fresh-kutz-indianapolis-in"
-  },
-  {
-    "new": true,
-    "name": "Dre",
-    "link": "https://app.thecut.co/barbers/andreliggons"
   }
 ]
