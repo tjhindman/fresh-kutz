@@ -11,10 +11,21 @@ import "./ApptMap.css";
 
 const useStyles = makeStyles((theme) => ({
   button: {
+    display: "flex",
+    justifyContent: "space-between",
     margin: theme.spacing(1),
     textTransform: "none",
     backgroundColor: "red",
     color: "white",
+  },
+  newFlag: {
+    width: "max-content",
+    margin: ".4em",
+    padding: ".2em .6em",
+    fontSize: ".8em",
+    fontWeight: "bold",
+    borderRadius: "50%",
+    backgroundColor: "yellow",
   },
   image: {
     width: "2rem",
@@ -35,17 +46,48 @@ export const ApptMap = () => {
     <div className="apptMapWrap">
       <div className="apptWrap">
         <h2>Book an Appointment Today!</h2>
-        {barbers.map((barber) => (
-          <Button
-            className={classes.button}
-            onClick={() => handleClick(barber.link)}
-            variant="contained"
-            size="large"
-          >
-            <img className={classes.image} src={defaultPic} alt="Donald"></img>
-            {barber.name}
-          </Button>
-        ))}
+        {barbers.map((barber) =>
+          barber.new ? (
+            <div>
+              <p
+                className={classes.newFlag}
+              >
+                New!
+              </p>
+              <Button
+                className={classes.button}
+                onClick={() => handleClick(barber.link)}
+                variant="contained"
+                size="large"
+              >
+                <img
+                  className={classes.image}
+                  src={defaultPic}
+                  alt={barber.name}
+                />
+                <div style={{ width: "3.2em", textAlign: "center" }}>
+                  {barber.name}
+                </div>
+              </Button>
+            </div>
+          ) : (
+            <Button
+              className={classes.button}
+              onClick={() => handleClick(barber.link)}
+              variant="contained"
+              size="large"
+            >
+              <img
+                className={classes.image}
+                src={defaultPic}
+                alt={barber.name}
+              />
+              <div style={{ width: "3.2em", textAlign: "center" }}>
+                {barber.name}
+              </div>
+            </Button>
+          )
+        )}
       </div>
       <div className="mapWrap">
         <Map
